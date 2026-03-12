@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+#course-list .course-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+#course-list .course-row input {
+    flex: 1;
+    margin-right: 5px;
+    padding: 5px;
+}
+#course-list .course-row button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#add-course, form button[type="submit"] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
